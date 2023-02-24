@@ -1,5 +1,5 @@
 import mysql.connector
-tabulka = mysql.connector.connect(host="localhost", user = "root", passwd="16091300", database = "vyrobky")
+tabulka = mysql.connector.connect(host="localhost", user = "root", passwd="1234", database = "vyrobky")
 mycursor = tabulka.cursor()
 
 from datetime import datetime
